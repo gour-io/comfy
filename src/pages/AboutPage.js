@@ -4,7 +4,27 @@ import { PageHero } from '../components'
 import aboutImg from '../assets/hero-bcg.jpeg'
 
 const AboutPage = () => {
-  return <h4>about page</h4>
+  return (
+    <main>
+      <PageHero title="about" />
+      <Wrapper className="page section section-center">
+        <img src={aboutImg} alt="nice desk" />
+        <article>
+          <div className="title">
+            <h2>Our story</h2>
+            <div className="underline"></div>
+          </div>
+          <p>
+            "Furniture is usually considered part of the decorative arts, but
+            the blurring of the line between the disciplines of art and design
+            opens furniture to the art category," explains Mindel. Buyers
+            themselves, particularly those who have worked with architects and
+            designers on their homes, have become more sophisticated
+          </p>
+        </article>
+      </Wrapper>
+    </main>
+  )
 }
 
 const Wrapper = styled.section`
