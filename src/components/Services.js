@@ -3,7 +3,36 @@ import styled from 'styled-components'
 import { services } from '../utils/constants'
 
 const Services = () => {
-  return <h4>services </h4>
+  return (
+    <Wrapper>
+      <div className="section-center">
+        <article className="header">
+          <h3>
+            custom furniture <br />
+            built for you
+          </h3>
+          <p>
+            Furniture can be a product of design and is considered a form of
+            decorative art. In addition to furniture's functional role, it can
+            serve a symbolic or religious purpose. It can be made from many
+            materials, including metal, plastic, and wood.
+          </p>
+        </article>
+        <div className="services-center">
+          {services.map((service) => {
+            const { id, title, icon, text } = service
+            return (
+              <article key={id} className="service">
+                <span className="icon">{icon}</span>
+                <h4>{title}</h4>
+                <p>{text}</p>
+              </article>
+            )
+          })}
+        </div>
+      </div>
+    </Wrapper>
+  )
 }
 
 const Wrapper = styled.section`
