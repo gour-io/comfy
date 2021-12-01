@@ -24,21 +24,21 @@ export const services = [
     icon: <GiCompass />,
     title: 'mission',
     text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      'we take our customers’ needs very seriously. A team of furniture designers work tirelessly to craft fresh new furniture designs that cater to the requirements of today’s homeowner flawlessly.',
   },
   {
     id: 2,
     icon: <GiDiamondHard />,
     title: 'vision',
     text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      'Furniture is amongst the most crucial elements of a home and more often than not a true reflection of the people living in it. From the style of bed to the colour of the chairs, every little detail makes a massive impact, which is why choosing the right furniture for your home is essential.',
   },
   {
     id: 3,
     icon: <GiStabbedNote />,
     title: 'history',
     text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      'Dreaming about transforming your home? Just walk into the nearest furniture store, Urban Ladder, only, of course, for inspiration. With myriad options for both home and office, Urban Ladder is an excellent option for anyone who needs durable yet attractive furniture.',
   },
 ]
 
