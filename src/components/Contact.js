@@ -14,8 +14,13 @@ const Contact = () => {
             furniture. Or they create pieces that are at once functional but
             with high aesthetic value.
           </p>
-          <form className="contact-form">
+          <form
+            action="https://formspree.io/f/xeqvylko"
+            method="post"
+            className="contact-form"
+          >
             <input
+              name="email"
               type="email"
               className="form-input"
               placeholder="enter email"
